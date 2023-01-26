@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+.navbar-logo {
+  font-family: Cookie, cursive;
+  font-size: 32px;
+}
+body {
+  background-color: #fafafa;
+}
+
+.bg-blue-inst {
+  background: #005c98;
+}
+
+.text-blue-inst {
+  color: #005c98;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  transition: all 0.3s linear;
+  background-color: #ffffff !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  animation: anim 0.5s linear;
+}
+
+@keyframes anim {
+  0% {
+    top: -3rem;
+  }
+  100% {
+    top: 0;
+  }
+}
